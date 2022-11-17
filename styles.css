@@ -12,13 +12,33 @@ body {
     background-color: var(--background);
     overflow: hidden;
 }
+a {
+    color: var(--foreground)
+}
+img {
+    width:500;
+}
+.web {
+    display: inline-block;
+    width: 400px;
+    box-shadow: 0 0 10px var(--foreground);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.web-text {
+    padding-left: 24px;
+}
 .container {
     position:relative;
     border-radius: 10px;
     box-shadow: 0 0 10px var(--foreground);
+    margin-bottom: 2em;
 }
 .container-content {
-    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 24px;
 }
 .container-close {
     position:absolute;
@@ -28,7 +48,7 @@ body {
     border:none;
     display:inline-block;
     padding:8px 16px;
-    border-radius: 0 10px 0 0;
+    border-radius: 5px 10px 5px 5px;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
