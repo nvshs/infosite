@@ -1,0 +1,38 @@
+:root{
+    --background: #101010;
+    --background-two: #202020;
+    --foreground: #f5f6f7;
+	--theme: #5865F2;
+	--success: #5cb85c;
+	--error: #d9534f;
+}
+body {
+    font-family: sans-serif;
+    color: var(--foreground);
+    background-color: var(--background);
+    overflow: hidden;
+}
+.container {
+    position:relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--foreground);
+}
+.container-content {
+    padding: 0.5em;
+}
+.container-close {
+    position:absolute;
+    right:0;
+    top:0;
+    background-color: var(--error);
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    border-radius: 0 10px 0 0;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
